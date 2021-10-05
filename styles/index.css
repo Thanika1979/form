@@ -1,0 +1,43 @@
+body {
+    background-image: url(../images/flower.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Signup-box{
+    display: flex;
+    align-items: center;
+     
+}
+form {
+    box-sizing: border-box;
+    max-width: 560px;
+    width: 100%;
+    min-height: 250px;
+    padding:20px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px #754242;
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    font-family: 'Noto Serif', serif;
+}
+.input-field{
+    border: 2px solid rgb(76, 119, 119, 1);
+    background-color: rgba(226, 209, 216, 0.7);
+}
+form label {
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(8, 0, 7);
+    border: rgb(8, 0, 7);
+    background-color: rgb(131, 145, 137);
+}
+form input {
+    font-size: 21px;
+    margin-top: 2px;
+
+}
